@@ -1,0 +1,190 @@
+PS C:\Users\fotob\Desktop\UNI\PHY\PROGETTO\NEW_P> .\venv_aircraft\Scripts\Activate.ps1
+(venv_aircraft) PS C:\Users\fotob\Desktop\UNI\PHY\PROGETTO\NEW_P> cd CODICE_PY
+
+#100
+
+(venv_aircraft) PS C:\Users\fotob\Desktop\UNI\PHY\PROGETTO\NEW_P\CODICE_PY> python aircraft_pitch_env.py --calibrate --episodes 100 --severity light
+
+=======================================================
+  T_MAX CALIBRATION  (severity=light, n=1240 steps)
+=======================================================
+  total_torque RMS         : 0.390 N*m
+  total_torque median       : 0.250 N*m
+  total_torque 95th pct     : 0.800 N*m
+  total_torque 99th pct     : 1.057 N*m
+  total_torque 99.7th pct   : 1.262 N*m  <-- target
+  total_torque max observed : 1.455 N*m
+  -- breakdown (RMS) --
+  gust_torque    RMS        : 0.390 N*m
+  shear_torque   RMS        : 0.000 N*m
+  thermal_torque RMS        : 0.000 N*m
+=======================================================
+  Current  T_MAX = 3.00
+  Suggested T_MAX = 1.26  (authority @ 99.7 pct)
+=======================================================
+
+(venv_aircraft) PS C:\Users\fotob\Desktop\UNI\PHY\PROGETTO\NEW_P\CODICE_PY> python aircraft_pitch_env.py --calibrate --episodes 100 --severity moderate
+
+=======================================================
+  T_MAX CALIBRATION  (severity=moderate, n=1216 steps)
+=======================================================
+  total_torque RMS         : 1.268 N*m
+  total_torque median       : 0.851 N*m
+  total_torque 95th pct     : 2.486 N*m
+  total_torque 99th pct     : 3.236 N*m
+  total_torque 99.7th pct   : 3.769 N*m  <-- target
+  total_torque max observed : 4.715 N*m
+  -- breakdown (RMS) --
+  gust_torque    RMS        : 1.268 N*m
+  shear_torque   RMS        : 0.000 N*m
+  thermal_torque RMS        : 0.000 N*m
+=======================================================
+  Current  T_MAX = 3.00
+  Suggested T_MAX = 3.77  (authority @ 99.7 pct)
+=======================================================
+
+(venv_aircraft) PS C:\Users\fotob\Desktop\UNI\PHY\PROGETTO\NEW_P\CODICE_PY> python aircraft_pitch_env.py --calibrate --episodes 100 --severity severe
+
+=======================================================
+  T_MAX CALIBRATION  (severity=severe, n=1206 steps)
+=======================================================
+  total_torque RMS         : 1.566 N*m
+  total_torque median       : 1.009 N*m
+  total_torque 95th pct     : 3.148 N*m
+  total_torque 99th pct     : 4.025 N*m
+  total_torque 99.7th pct   : 4.580 N*m  <-- target
+  total_torque max observed : 6.692 N*m
+  -- breakdown (RMS) --
+  gust_torque    RMS        : 1.555 N*m
+  shear_torque   RMS        : 0.168 N*m
+  thermal_torque RMS        : 0.001 N*m
+=======================================================
+  Current  T_MAX = 3.00
+  Suggested T_MAX = 4.58  (authority @ 99.7 pct)
+=======================================================
+
+
+#500
+
+(venv_aircraft) PS C:\Users\fotob\Desktop\UNI\PHY\PROGETTO\NEW_P\CODICE_PY> python aircraft_pitch_env.py --calibrate --episodes 500 --severity light
+
+=======================================================
+  T_MAX CALIBRATION  (severity=light, n=6521 steps)
+=======================================================
+  total_torque RMS         : 0.432 N*m
+  total_torque median       : 0.256 N*m
+  total_torque 95th pct     : 0.837 N*m
+  total_torque 99th pct     : 1.232 N*m
+  total_torque 99.7th pct   : 1.498 N*m  <-- target
+  total_torque max observed : 6.581 N*m
+  -- breakdown (RMS) --
+  gust_torque    RMS        : 0.397 N*m
+  shear_torque   RMS        : 0.125 N*m
+  thermal_torque RMS        : 0.117 N*m
+=======================================================
+  Current  T_MAX = 3.00
+  Suggested T_MAX = 1.50  (authority @ 99.7 pct)
+=======================================================
+
+(venv_aircraft) PS C:\Users\fotob\Desktop\UNI\PHY\PROGETTO\NEW_P\CODICE_PY> python aircraft_pitch_env.py --calibrate --episodes 500 --severity moderate
+
+=======================================================
+  T_MAX CALIBRATION  (severity=moderate, n=6679 steps)
+=======================================================
+  total_torque RMS         : 1.320 N*m
+  total_torque median       : 0.874 N*m
+  total_torque 95th pct     : 2.624 N*m
+  total_torque 99th pct     : 3.535 N*m
+  total_torque 99.7th pct   : 4.397 N*m  <-- target
+  total_torque max observed : 5.604 N*m
+  -- breakdown (RMS) --
+  gust_torque    RMS        : 1.312 N*m
+  shear_torque   RMS        : 0.137 N*m
+  thermal_torque RMS        : 0.104 N*m
+=======================================================
+  Current  T_MAX = 3.00
+  Suggested T_MAX = 4.40  (authority @ 99.7 pct)
+=======================================================
+
+(venv_aircraft) PS C:\Users\fotob\Desktop\UNI\PHY\PROGETTO\NEW_P\CODICE_PY> python aircraft_pitch_env.py --calibrate --episodes 500 --severity severe
+
+=======================================================
+  T_MAX CALIBRATION  (severity=severe, n=6499 steps)
+=======================================================
+  total_torque RMS         : 1.609 N*m
+  total_torque median       : 1.067 N*m
+  total_torque 95th pct     : 3.171 N*m
+  total_torque 99th pct     : 4.256 N*m
+  total_torque 99.7th pct   : 5.050 N*m  <-- target
+  total_torque max observed : 9.416 N*m
+  -- breakdown (RMS) --
+  gust_torque    RMS        : 1.601 N*m
+  shear_torque   RMS        : 0.123 N*m
+  thermal_torque RMS        : 0.124 N*m
+=======================================================
+  Current  T_MAX = 3.00
+  Suggested T_MAX = 5.05  (authority @ 99.7 pct)
+=======================================================
+
+#1000
+
+(venv_aircraft) PS C:\Users\fotob\Desktop\UNI\PHY\PROGETTO\NEW_P\CODICE_PY> python aircraft_pitch_env.py --calibrate --episodes 1000 --severity light
+
+=======================================================
+  T_MAX CALIBRATION  (severity=light, n=13076 steps)
+=======================================================
+  total_torque RMS         : 0.436 N*m
+  total_torque median       : 0.254 N*m
+  total_torque 95th pct     : 0.835 N*m
+  total_torque 99th pct     : 1.170 N*m
+  total_torque 99.7th pct   : 1.490 N*m  <-- target
+  total_torque max observed : 7.640 N*m
+  -- breakdown (RMS) --
+  gust_torque    RMS        : 0.388 N*m
+  shear_torque   RMS        : 0.150 N*m
+  thermal_torque RMS        : 0.136 N*m
+=======================================================
+  Current  T_MAX = 3.00
+  Suggested T_MAX = 1.49  (authority @ 99.7 pct)
+=======================================================
+
+(venv_aircraft) PS C:\Users\fotob\Desktop\UNI\PHY\PROGETTO\NEW_P\CODICE_PY> python aircraft_pitch_env.py --calibrate --episodes 1000 --severity moderate
+
+=======================================================
+  T_MAX CALIBRATION  (severity=moderate, n=13260 steps)
+=======================================================
+  total_torque RMS         : 1.313 N*m
+  total_torque median       : 0.861 N*m
+  total_torque 95th pct     : 2.583 N*m
+  total_torque 99th pct     : 3.570 N*m
+  total_torque 99.7th pct   : 4.192 N*m  <-- target
+  total_torque max observed : 9.269 N*m
+  -- breakdown (RMS) --
+  gust_torque    RMS        : 1.298 N*m
+  shear_torque   RMS        : 0.153 N*m
+  thermal_torque RMS        : 0.131 N*m
+=======================================================
+  Current  T_MAX = 3.00
+  Suggested T_MAX = 4.19  (authority @ 99.7 pct)
+=======================================================
+
+(venv_aircraft) PS C:\Users\fotob\Desktop\UNI\PHY\PROGETTO\NEW_P\CODICE_PY> python aircraft_pitch_env.py --calibrate --episodes 1000 --severity severe
+
+=======================================================
+  T_MAX CALIBRATION  (severity=severe, n=13425 steps)
+=======================================================
+  total_torque RMS         : 1.670 N*m
+  total_torque median       : 1.056 N*m
+  total_torque 95th pct     : 3.370 N*m
+  total_torque 99th pct     : 4.596 N*m
+  total_torque 99.7th pct   : 5.461 N*m  <-- target
+  total_torque max observed : 9.701 N*m
+  -- breakdown (RMS) --
+  gust_torque    RMS        : 1.660 N*m
+  shear_torque   RMS        : 0.133 N*m
+  thermal_torque RMS        : 0.129 N*m
+=======================================================
+  Current  T_MAX = 3.00
+  Suggested T_MAX = 5.46  (authority @ 99.7 pct)
+=======================================================
+
