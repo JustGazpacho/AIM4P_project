@@ -1,0 +1,44 @@
+﻿[
+    {
+        "algo":  "DQN",
+        "turbulence":  "light",
+        "mean_reward":  5884.5,
+        "std":  843.8,
+        "episodes":  30
+    },
+    {
+        "algo":  "PPO",
+        "turbulence":  "light",
+        "mean_reward":  4934.5,
+        "std":  632.8,
+        "episodes":  30
+    },
+    {
+        "algo":  "DQN",
+        "turbulence":  "moderate",
+        "mean_reward":  8349.6,
+        "std":  1476.0,
+        "episodes":  30
+    },
+    {
+        "algo":  "PPO",
+        "turbulence":  "moderate",
+        "mean_reward":  8341.3,
+        "std":  933.6,
+        "episodes":  30
+    },
+    {
+        "algo":  "DQN",
+        "turbulence":  "severe",
+        "mean_reward":  12691.9,
+        "std":  1626.6,
+        "episodes":  30
+    },
+    {
+        "algo":  "PPO",
+        "turbulence":  "severe",
+        "mean_reward":  13193.4,
+        "std":  880.7,
+        "episodes":  30
+    }
+]

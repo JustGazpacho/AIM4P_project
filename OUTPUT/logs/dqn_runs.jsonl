@@ -1,0 +1,1 @@
+{"algo": "dqn", "timesteps": 1000000, "mean_reward": 9508.19158965, "std_reward": 3035.348288358168, "n_envs": 1, "eval_freq": 20000, "turbulence": "random", "waypoints": 6, "lr_schedule": "linear", "initial_ep_steps": 600, "eval_severity": "random", "time": "2026-06-23T17:06:56Z"}

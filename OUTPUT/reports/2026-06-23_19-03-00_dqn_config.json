@@ -1,0 +1,22 @@
+{
+    "algorithm": "dqn",
+    "timesteps": 1000000,
+    "seed": 42,
+    "n_envs": 1,
+    "eval_freq": 20000,
+    "lr_schedule": "linear",
+    "base_lr": 0.002661808797375751,
+    "training_duration_s": 207.0,
+    "turbulence_severity": "random",
+    "eval_severity": "random",
+    "n_path_waypoints": 6,
+    "episode_steps_initial": 600,
+    "episode_steps_full": 2400,
+    "episode_seconds_initial": 30.0,
+    "episode_seconds_full": 120.0,
+    "n_actions": 11,
+    "hdg_roll_coupling": 0.0003,
+    "dqn_learning_starts": 24000,
+    "gamma": 0.97,
+    "params_source": "tuned"
+}

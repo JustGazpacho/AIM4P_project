@@ -1,0 +1,1 @@
+{"algo": "ppo", "timesteps": 1000000, "mean_reward": 10497.207847200001, "std_reward": 3071.9224037676513, "n_envs": 16, "eval_freq": 20000, "turbulence": "random", "waypoints": 6, "lr_schedule": "linear", "initial_ep_steps": 2400, "eval_severity": "random", "time": "2026-06-23T17:13:32Z"}
