@@ -1,0 +1,5 @@
+{"mean_reward": 5165.423822857347, "std_reward": 784.096290416963, "turbulence": "light", "n_episodes": 30, "time": "2026-06-23T17:30:38Z"}
+{"mean_reward": 8172.953525085637, "std_reward": 890.9695724132456, "turbulence": "moderate", "n_episodes": 30, "time": "2026-06-23T17:32:39Z"}
+{"mean_reward": 4934.485530282903, "std_reward": 632.7537394434597, "turbulence": "light", "n_episodes": 30, "time": "2026-06-23T17:51:24Z"}
+{"mean_reward": 8341.338524918325, "std_reward": 933.6130485497561, "turbulence": "moderate", "n_episodes": 30, "time": "2026-06-23T17:59:41Z"}
+{"mean_reward": 13193.437419641134, "std_reward": 880.7411174896589, "turbulence": "severe", "n_episodes": 30, "time": "2026-06-23T18:03:23Z"}
